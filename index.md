@@ -2,4 +2,4 @@ Have a good day, also hi
 
 
 
-[image](cat3.png)
+[Image](cat3.png)
