@@ -1,4 +1,4 @@
-# CSE 15L Lab #1 Report
+# CSE 15L Lab #1 Report | David Guido
 
 
 ![Image](CD1.png)
