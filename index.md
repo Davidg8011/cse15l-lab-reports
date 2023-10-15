@@ -40,5 +40,5 @@
 ![Image](ls_3.png)
 * ls used with an argument that is a file does not seem to be useful
 * ls is used to see where you can go and once you know what you want to view that is when you use the cat command
----
+
 
