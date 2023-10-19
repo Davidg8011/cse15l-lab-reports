@@ -1,8 +1,8 @@
 # CSE 15L Lab #1 Report | David Guido
 
 
-![Image](CD1.png)
-* Using change directory with no argument appears to have no effect on the current state of the terminal. 
+![Image](CD_No_Arg.png)
+* Using a change directory with no argument brings you back. 
 
 ![Image](CD_lecture1.png)
 * CD with the argument being a valid directly moves into that directly and becomes the current working directory 
