@@ -5,7 +5,7 @@
 * Using a change directory with no argument brings you back to your home directory. As seen here with the check of the PWD command.
 
 ![Image](CD_lecture1.png)
-* CD with the argument being a valid directory moves into that directly and becomes the current working directory.
+* CD with the argument being a valid directory moves into that directory and becomes the current working directory.
 
 
 ![Image](CD3png.png)
