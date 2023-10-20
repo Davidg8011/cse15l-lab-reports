@@ -1,8 +1,8 @@
 # CSE 15L Lab #1 Report | David Guido
 
 
-![Image](CD_No_Arg.png)
-* Using a change directory with no argument brings you back. 
+![Image](CD_No_Arg_main.png)
+* Using a change directory with no argument brings you back to your home directory. 
 
 ![Image](CD_lecture1.png)
 * CD with the argument being a valid directly moves into that directly and becomes the current working directory 
