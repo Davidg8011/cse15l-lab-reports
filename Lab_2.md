@@ -29,5 +29,16 @@
   Hello\n2. I hope this email finds you well\n".
 
 
+
+* The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+![Image](Lab2_PathToPrivate.png)
+
+
+* The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+![Image](Lab2_PathToKeyOnServer.png)
+
+* A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+![Image](Lab2_NoPasswordLogin.png)
+
  In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before. 
  I learned how the split() function works. I now understand how it finds s given char and then stores everything to the left of that charr in an array at index 0 and everything to the right of the char into the same array but in index 1.
