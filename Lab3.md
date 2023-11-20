@@ -27,7 +27,6 @@
 ![Image](Lab2_Add_Code_1.png) // Make this the correct .png
 
 
-// chunk 3
 
 **The function with the bug**
 
@@ -70,13 +69,13 @@
 * Souce: 
 [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
 
-*grep Command
+* grep Command
 
-*Example: 1
+* Example: 1
 
-*grep -c
+* grep -c
 
-*File:
+* File:
 ![Image](grep_c_file.png) // Make this the correct .png
 
 This 
@@ -86,38 +85,38 @@ This
 ![Image](grep_c_direct.png) // Make this the correct .png
 
 
-*Example: 2
+* Example: 2
 
-grep -i
+* grep -i
 
-*File:
+* File:
 ![Image](grep_i_file.png) // Make this the correct .png
 
-*Directory:
+* Directory:
 
 ![Image](grep_i_direct.png) // Make this the correct .png
 
 
-*Example: 3
+* Example: 3
 
-*grep -l
+* grep -l
 
-*File:
+* File:
 ![Image](grep_l_file.png) // Make this the correct .png
 
-*Directory:
+* Directory:
 
 ![Image](grep_l_direct.png) // Make this the correct .png
 
 
-*Example: 4
+* Example: 4
 
-*grep -l
+* grep -l
 
-*File:
+* File:
 ![Image](grep_o_file.png) // Make this the correct .png
 
-*Directory:
+* Directory:
 
 ![Image](grep_o_direct.png) // Make this the correct .png
 
