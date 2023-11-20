@@ -10,7 +10,7 @@
 
 **The Symptom**
 
-![Image](Lab2_Add_Code_1.png)
+![Image](Run_Fail_lab3.png)
 
 **A test that doesn't break the code**
 
@@ -24,7 +24,7 @@
 
 **The Symptom**
 
-![Image](Lab2_Add_Code_1.png)
+![Image](Run_works_lab3.png)
 
 
 
