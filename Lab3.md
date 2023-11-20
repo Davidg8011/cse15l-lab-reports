@@ -17,8 +17,8 @@
 ```
  @Test
     public void testAverageWihtoutLowest() {
-      double[] input1 = {1,4,4,5};
-      assertEquals(3.5, ArrayExamples.averageWithoutLowest(input1), 0.0001);
+      double[] input1 = {1,4,5,6};
+      assertEquals(5.0, ArrayExamples.averageWithoutLowest(input1), 0.0001);
     }
 ```
 
