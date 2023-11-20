@@ -47,7 +47,7 @@
 ```
 
 **The corrected method**
-
+```
   static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
@@ -60,4 +60,4 @@
     }
     return (sum - lowest) / (arr.length - 1);
   }
-
+```
