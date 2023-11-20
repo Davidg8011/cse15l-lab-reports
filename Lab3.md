@@ -3,7 +3,7 @@
 ```
   @Test
   public void averageWithoutLowestTest() {
-    int[] input1 = {1, 2, 3, 10, 1};
+    double[] input1 = {1, 2, 3, 10, 1};
     assertEquals(4.0, ArrayExamples.averageWithoutLowest(input1), 0.000001);
   }
 ```
