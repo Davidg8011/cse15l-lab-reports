@@ -1,3 +1,4 @@
+**PART: 1**
 **A Failure**
 ```
   @Test
@@ -62,5 +63,7 @@
   }
 ```
 
-* The issue was when the array had matching lowest elements. For example, {4,3,2,2} calculating the sum of this array without the lowest should be 9 but the 
-* original code calculated 7. Because the code first calculates the lowest element, then when calculating the sum of the array the program does not add any element to the sum that equals the lowest. Which is fine if the lowest element is unique, but when not fine otherwise. 
+*The issue was when the array had matching lowest elements. For example, {4,3,2,2} calculating the sum of this array without the lowest should be 9 but the 
+*original code calculated 7. Because the code first calculates the lowest element, then the program does not add any element to the sum that equals the lowest When *calculating the sum of the array. This is fine if the lowest element is unique, but not fine otherwise. My solution to this was to calculate was to still calculate *the lowest element, once that is done simply sum up all the elements (even the lowest). Now, before calculating the average the program will remove the lowest from *the sum, Sum - lowest. This works because regardless of how many lowest elements there are one and only one is being removed from the sum, which gives us the desired behavior.
+
+**PART: 2**
