@@ -61,3 +61,6 @@
     return (sum - lowest) / (arr.length - 1);
   }
 ```
+
+* The issue was when the array had matching lowest elements. For example, {4,3,2,2} calculating the sum of this array without the lowest should be 9 but the 
+* original code calculated 7. Because the code first calculates the lowest element, then when calculating the sum of the array the program does not add any element to the sum that equals the lowest. Which is fine if the lowest element is unique, but when not fine otherwise. 
