@@ -76,11 +76,11 @@
 *grep -c
 
 *File:
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_c_file.png) // Make this the correct .png
 
 *Directory:
 
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_c_direct.png) // Make this the correct .png
 
 
 *Example: 2
@@ -88,34 +88,34 @@
 grep -i
 
 *File:
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_i_file.png) // Make this the correct .png
 
 *Directory:
 
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_i_direct.png) // Make this the correct .png
 
 
 *Example: 3
 
-// The command
+*grep -l
 
 *File:
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_l_file.png) // Make this the correct .png
 
 *Directory:
 
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_l_direct.png) // Make this the correct .png
 
 
 *Example: 4
 
-// The command
+*grep -l
 
 *File:
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_o_file.png) // Make this the correct .png
 
 *Directory:
 
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](grep_o_direct.png) // Make this the correct .png
 
 
