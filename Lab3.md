@@ -10,7 +10,7 @@
 
 **The Symptom**
 
-![Image](Lab2_Add_Code_1.png) // Make this the correct .png
+![Image](Lab2_Add_Code_1.png)
 
 **A test that doesn't break the code**
 
