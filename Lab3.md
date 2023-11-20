@@ -67,7 +67,8 @@
 *original code calculated 7. Because the code first calculates the lowest element, then the program does not add any element to the sum that equals the lowest When *calculating the sum of the array. This is fine if the lowest element is unique, but not fine otherwise. My solution to this was to calculate was to still calculate *the lowest element, once that is done simply sum up all the elements (even the lowest). Now, before calculating the average the program will remove the lowest from *the sum, Sum - lowest. This works because regardless of how many lowest elements there are one and only one is being removed from the sum, which gives us the desired behavior.
 
 **PART: 2**
-* Souce: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#
+* Souce: 
+[Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
 
 *grep Command
 
@@ -77,6 +78,8 @@
 
 *File:
 ![Image](grep_c_file.png) // Make this the correct .png
+
+This 
 
 *Directory:
 
