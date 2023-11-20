@@ -73,7 +73,7 @@
 
 *Example: 1
 
-// The command
+*grep -c
 
 *File:
 ![Image](Lab2_Add_Code_1.png) // Make this the correct .png
@@ -85,7 +85,7 @@
 
 *Example: 2
 
-// The command
+grep -i
 
 *File:
 ![Image](Lab2_Add_Code_1.png) // Make this the correct .png
