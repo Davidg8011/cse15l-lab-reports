@@ -75,7 +75,7 @@ The issue was when the array had matching lowest elements. For example, {4,3,2,2
 * grep -c
 
 * File:
-![Image](grep_c_file.png) // Make this the correct .png
+![Image](grep_c_file.png)
 
 > What grep -c does is look through an entire file for a given string. The -c command will display the
 > number of times that string appears in the given file. Perhaps this could be useful to check an essay
