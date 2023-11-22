@@ -17,10 +17,15 @@
 * I now typed **vim** space **run.sh** and hit enter, to create a bash file so I can more easily the test in the future.
 * Once in vim for run.sh I typed, **i** then typed **set** space **-e** followed by enter, enter, enter.
 * I now tpyed, **javac** space **-cp** space **.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar** space * *.java.
-* lastly I typed, **java** space **-cp** space **.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar** space **org.junit.runner.JUnitCore** space **ListExamples** followed by pressing ecs then **:wq** whihc brings us back to the terminal.
-* Now we can finally run the test. Within the terminal I typed, 
+* lastly I typed, **java** space **-cp** space **.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar** space
+*  **org.junit.runner.JUnitCore** space **ListExamples** followed by pressing ecs then **:wq** whihc brings us back to the
+*  terminal. Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh** followed by enter.
+
 
 **7) Edit the code file to fix the failing test**
+
+To fix the code: From the terminal type, **vim space 
+
 **8) Run the tests, demonstrating that they now succeed**
 **9) Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
