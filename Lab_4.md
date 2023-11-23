@@ -24,7 +24,7 @@
 
 **7) Edit the code file to fix the failing test**
 
-To fix the code: From the terminal type, **vim space 
+To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
 
 **8) Run the tests, demonstrating that they now succeed**
 **9) Commit and push the resulting change to your Github account (you can pick any commit message!)**
