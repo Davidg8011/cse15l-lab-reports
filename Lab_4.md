@@ -18,7 +18,7 @@
 
 * to clone the repository I typed: **git** space  **clone** space **https://github.com/ucsd-cse15l-s23/lab7** and hitting enter 
 
-![Image](Lab_4_log_Into_ieng6.png)
+![Image](Lab_4_git_clone.png)
 
 
 
@@ -41,14 +41,14 @@
 
 To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
 
-![Image](Lab_4_Vim.png)
+![Image](Lab_4_Editing_vim.png)
 
 
 **8) Run the tests, demonstrating that they now succeed**
 
 * Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh**
 * followed by enter.
-![Image](Run_Fail_lab3.png)
+![Image](Lab_4_WorkingTest.png)
 
 
 
