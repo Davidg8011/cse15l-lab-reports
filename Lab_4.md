@@ -2,14 +2,24 @@
 
 **LAB #4**
 
+
 **4) Log into ieng6**
 
 * Starting from the terminal:
 * We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hitting enter.
+![Image](Run_Fail_lab3.png)
+
+
+
 
 **5) Clone your fork of the repository from your Github account (using the SSH URL)**
 
 * to clone the repository I typed: **git** space  **clone** space **https://github.com/ucsd-cse15l-s23/lab7** and hitting enter 
+
+![Image](Run_Fail_lab3.png)
+
+
+
 
 **6) Run the tests, demonstrating that they fail**
 
@@ -21,26 +31,28 @@
 *  **org.junit.runner.JUnitCore** space **ListExamples** followed by pressing ecs then **:wq** whihc brings us back to the
 *  terminal. Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh** followed by enter.
 
+![Image](Run_Fail_lab3.png)
+
+
 
 **7) Edit the code file to fix the failing test**
 
 To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
+![Image](Run_Fail_lab3.png)
+
 
 **8) Run the tests, demonstrating that they now succeed**
 
 * Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh**
 * followed by enter.
+![Image](Run_Fail_lab3.png)
+
+
+
 
 **9) Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
-* To commit these changes I used **alt** + **tab** to get to the github app, once there I pressed **tab** a bunch of times to get to the commit message box. I then typed
+* To commit these changes I used **alt** + **tab** to get to the github app, once there I pressed **tab** a bunch of times to get to the commit message box. I then typed **corrected** space **the** space **index** space **syntax**
 
 ![Image](Run_Fail_lab3.png)
 
-```
- @Test
-    public void testAverageWihtoutLowest() {
-      double[] input1 = {1,4,5,6};
-      assertEquals(5.0, ArrayExamples.averageWithoutLowest(input1), 0.0001);
-    }
-```
