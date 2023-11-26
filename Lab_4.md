@@ -27,7 +27,13 @@
 To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
 
 **8) Run the tests, demonstrating that they now succeed**
+
+* Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh**
+* followed by enter.
+
 **9) Commit and push the resulting change to your Github account (you can pick any commit message!)**
+
+* To commit these changes I used **alt** + **tab** to get to the github app, once there I pressed **tab** a bunch of times to get to the commit message box. I then typed
 
 ![Image](Run_Fail_lab3.png)
 
