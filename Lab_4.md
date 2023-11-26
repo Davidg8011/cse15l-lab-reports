@@ -60,6 +60,8 @@ To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java*
 
 * Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh**
 * followed by enter.
+
+
 ![Image](Lab_4_running_test_vscode.png)
 
 
