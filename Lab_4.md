@@ -14,11 +14,15 @@
 
 
 
+
 **5) Clone your fork of the repository from your Github account (using the SSH URL)**
 
 * to clone the repository I typed: **git** space  **clone** space **https://github.com/ucsd-cse15l-s23/lab7** and hitting enter 
 
 ![Image](Lab_4_git_clone.png)
+
+
+
 
 
 
@@ -37,6 +41,10 @@
 
 
 
+
+
+
+
 **7) Edit the code file to fix the failing test**
 
 To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
@@ -44,11 +52,17 @@ To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java*
 ![Image](Lab_4_Editing_vim.png)
 
 
+
+
+
+
 **8) Run the tests, demonstrating that they now succeed**
 
 * Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh**
 * followed by enter.
 ![Image](Lab_4_WorkingTest.png)
+
+
 
 
 
