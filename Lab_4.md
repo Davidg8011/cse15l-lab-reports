@@ -7,7 +7,8 @@
 
 * Starting from the terminal:
 * We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hitting enter.
-![Image](Run_Fail_lab3.png)
+
+![Image](Lab_4_Vim.png)
 
 
 
@@ -16,7 +17,7 @@
 
 * to clone the repository I typed: **git** space  **clone** space **https://github.com/ucsd-cse15l-s23/lab7** and hitting enter 
 
-![Image](Run_Fail_lab3.png)
+![Image](Lab_4_log_Into_ieng6.png)
 
 
 
@@ -31,14 +32,15 @@
 *  **org.junit.runner.JUnitCore** space **ListExamples** followed by pressing ecs then **:wq** whihc brings us back to the
 *  terminal. Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh** followed by enter.
 
-![Image](Run_Fail_lab3.png)
+![Image](Lab_4_failed_Test.png)
 
 
 
 **7) Edit the code file to fix the failing test**
 
 To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
-![Image](Run_Fail_lab3.png)
+
+![Image](Lab_4_Vim.png)
 
 
 **8) Run the tests, demonstrating that they now succeed**
