@@ -49,7 +49,7 @@
 
 To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java** and enter. Now that are in vim type, **:44** and hit enter. Now type **ea** backspace **2** esc and **:wq**
 
-![Image](Lab_4_Editing_vim.png)
+![Image](Lab_4_vim_editing_VScode.png)
 
 
 
@@ -60,7 +60,7 @@ To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java*
 
 * Now we can finally run the test. Within the terminal I typed, **bash** space **run.sh**
 * followed by enter.
-![Image](Lab_4_WorkingTest.png)
+![Image](Lab_4_running_test_vscode.png)
 
 
 
