@@ -8,7 +8,7 @@
 * Starting from the terminal:
 * We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hitting enter.
 
-![Image](Lab_4_log_Into_ieng6.png)
+![Image](Lab_4_commitingToGIt.png)
 
 
 
