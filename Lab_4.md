@@ -8,7 +8,7 @@
 * Starting from the terminal:
 * We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hitting enter.
 
-![Image](Lab_4_commitingToGIt.png)
+![Image](Lab_4_log_Into_ieng6.png)
 
 
 
@@ -57,5 +57,5 @@ To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java*
 
 * To commit these changes I used **alt** + **tab** to get to the github app, once there I pressed **tab** a bunch of times to get to the commit message box. I then typed **corrected** space **the** space **index** space **syntax**
 
-![Image](Run_Fail_lab3.png)
+![Image](Lab_4_commitingToGIt.png)
 
