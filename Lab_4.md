@@ -17,7 +17,7 @@
 
 **5) Clone your fork of the repository from your Github account (using the SSH URL)**
 
-* to clone the repository I typed: **git** space  **clone** space **https://github.com/Davidg8011/lab7.git** and hitting enter 
+* to clone the repository I typed: **git** space  **clone** space **https://github.com/Davidg8011/lab7.git** and hit * enter 
 
 ![Image](Lab_4_git_clone.png)
 
@@ -30,7 +30,7 @@
 **6) Run the tests, demonstrating that they fail**
 
 * to run the tests I typed: **ls** and hit enter, followed by **cd** space **l** tab and then hit enter.
-* I now typed **vim** space **run.sh** and hit enter, to create a bash file so I can more easily the test in the future.
+* I now typed **vim** space **run.sh** and hit enter, to create a bash file so I can more easily run a test in the future.
 * Once in vim for run.sh I typed, **i** then typed **set** space **-e** followed by enter, enter, enter.
 * I now tpyed, **javac** space **-cp** space **.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar** space * *.java.
 * lastly I typed, **java** space **-cp** space **.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar** space
