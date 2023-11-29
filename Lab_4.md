@@ -6,8 +6,8 @@
 **4) Log into ieng6**
 
 * Starting from the terminal:
-* We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hitting enter.
-
+* We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hit enter.
+  
 ![Image](Lab_4_log_Into_ieng6.png)
 
 
@@ -17,7 +17,7 @@
 
 **5) Clone your fork of the repository from your Github account (using the SSH URL)**
 
-* to clone the repository I typed: **git** space  **clone** space **https://github.com/ucsd-cse15l-s23/lab7** and hitting enter 
+* to clone the repository I typed: **git** space  **clone** space **https://github.com/Davidg8011/lab7.git** and hitting enter 
 
 ![Image](Lab_4_git_clone.png)
 
