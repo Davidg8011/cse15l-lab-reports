@@ -62,7 +62,7 @@ To fix the code: From the terminal type, **vim** space, **shift+l** tab **.java*
 * followed by enter.
 
 
-![Image](Lab_4_running_test_vscode.png)
+![Image](Lab_4_Junit_running_vscode_yes.png)
 
 
 
