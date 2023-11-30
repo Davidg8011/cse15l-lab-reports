@@ -6,7 +6,7 @@
 **4) Log into ieng6**
 
 * Starting from the terminal:
-* We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hit enter.
+* We log into the server by typing **ssh** space **cs15lfa23tk@ieng6.ucsd.edu** and hit \<enter\>.
   
 ![Image](Lab_4_log_Into_ieng6.png)
 
