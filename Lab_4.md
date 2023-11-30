@@ -73,7 +73,7 @@
 * To commit these changes I used \<alt\> + \<tab\> to get to the GitHub app, once there I pressed \<tab\> 9
 * times to get to the commit message box. I then typed **corrected** \<space\> **the** \<space\> **index**
 * \<space\> **syntax** and hit \<tab\> 3 times to select the "commit to main" box, once there I hit
-* \<enter\> to commit the changess. Lastly, I hit \<tab\> 5 times to select the "push to origin" and hit
+* \<enter\> to commit the changess. Lastly, I hit \<tab\> 5 times to select the "push to origin" box and hit
 * \<enter\>
 
 ![Image](Lab_4_commitingToGIt.png)
