@@ -52,8 +52,8 @@ To fix the code: From the terminal type, **vim** \<space\>, **shift+l** tab\> **
 
 **8) Run the tests, demonstrating that they now succeed**
 
-* Now we can finally run the test. Within the terminal I typed, **bash** \<space **run.sh**
-* followed by \<enter.
+* Now we can finally run the test. Within the terminal I typed, **bash** \<space\>  **run.sh**
+* followed by \<enter\> .
 
 
 ![Image](Lab_4_Junit_running_vscode_yes.png)
@@ -65,7 +65,7 @@ To fix the code: From the terminal type, **vim** \<space\>, **shift+l** tab\> **
 
 **9) Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
-* To commit these changes I used \<alt** + \<tab** to get to the GitHub app, once there I pressed \<tab** a bunch of times to get to the commit message box. I then typed **corrected** \<space **the** \<space **index** \<space **syntax** and hit \<enter
+* To commit these changes I used \<alt\>  + \<tab\>  to get to the GitHub app, once there I pressed \<tab** a bunch of times to get to the commit message box. I then typed **corrected** \<space\>  **the** \<space\>  **index** \<space\>  **syntax** and hit \<enter\> 
 
 ![Image](Lab_4_commitingToGIt.png)
 
