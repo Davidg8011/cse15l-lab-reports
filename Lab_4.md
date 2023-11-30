@@ -45,7 +45,7 @@
 * To fix the code: From the terminal I typed **vim** \<space\>, **shift+l** \<tab\> **.java**, and hit
 * \<enter\>. Now that I am in vim I type, **:44** (go to line 44) and hit \<enter\>, followed by **ea**
 * (e goes to the end of the word, a moves cursor to the right one and enters insert mode). Now I typed
-* \<backspace\> **2** \<esc\> and **:wq** (wq to write and quite vim) and hit \<enter\>
+* \<backspace\> **2** \<esc\> and **:wq** (wq to write and quit vim) and hit \<enter\>
 
 ![Image](Lab_4_vim_editing_VScode.png)
 
