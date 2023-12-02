@@ -36,9 +36,102 @@ Lmk if that helps any!
 
 4) At the end, all the information needed about the setup including:
 a) The file & directory structure needed
+
+
+
 b) The contents of each file before fixing the bug
+**run.sh**
+
+```
+if [ $1 -eq 0 ]; then
+    echo "Incorrect number of arguments"
+    exit
+fi
+
+
+javac Main.java
+
+
+if [ $? -eq 0 ]; then
+    echo "Compilation successful."
+
+    java Main $0
+
+else
+    echo "Main.java did not compile"
+fi
+```
+
+**Main.java**
+
+```
+
+public class Main {
+
+    public static void main(String[] args) {
+        // 2nd check to see if no arguemnts were passed in
+        if (args.length != 1) {
+            System.out.println("No arguemnts passed in");
+            System.exit(1);
+        }
+
+        // get the first argument passed in and store it in limit
+        int limit = Integer.parseInt(args[0]);
+
+        // create a new math Instance
+        math mathInstance = new math();
+        
+    
+        int result = mathInstance.countPrimesUpTo(limit);
+        System.out.println("Number of primes up to " + limit + ": " + result);
+    }
+}
+
+```
+
+**math.java**
+
+```
+import java.lang.Math;
+
+public class math {
+
+    public static int countPrimesUpTo(int limit) {
+        int count = 0;
+        for (int i = 2; i <= limit; i++) {
+            if (isPrime(i)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static boolean isPrime(int number) {
+        if (number <= 1) {
+            return false;
+        }
+
+        if (number % 2 == 0) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+```
+
 c) The full command line (or lines) you ran to trigger the bug
+Copy these from the picture
+
 d) A description of what to edit to fix the bug
+
+
   
 ![Image](Lab_4_log_Into_ieng6.png)
 
