@@ -33,8 +33,38 @@ Lmk if that helps any!
 
 3) Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
+**Student**
 
-4) At the end, all the information needed about the setup including:
+* That worked! Using $1 I was finally able to get the passed-in value when using a bash script.
+* I got some issues when calling run.sh without a value which I am fine with but when I call run.sh while
+* passing 0 in I get weird symptoms. My goal was to treat 0 like any other number with my code
+
+* Below is my code to check if something is prime
+```
+   public static boolean isPrime(int number) {
+        if (number <= 1) {
+            return false;
+        }
+
+        if (number % 2 == 0) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+
+  
+   
+
+
+5) At the end, all the information needed about the setup including:
 a) The file & directory structure needed
 
 
