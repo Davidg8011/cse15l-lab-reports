@@ -12,9 +12,23 @@
 * followed by java Main 15. However, I cannot get the code to run from a bash script file.
 * This makes me think the issue must be with the bash file.
 
+![Image](Lab_4_log_Into_ieng6.png)
+
+
+
 
 
 2) A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+
+
+**TA Response**
+
+* Hello,
+
+* Looks like you're most of the way there! just a few issues left, I noticed that the total number of primes seems to be off by 1 can you send me a screenshot of your method that calculates if a number is prime or not? Going back to your bash script it seems the way you're handling the input seems to be funky. Remember that values passed into bash are accessed using $1, $2 etc. So you .sh file should have a line that reads "Java Main $1" 
+
+Lmk if that helps any!
+
 
 
 3) Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
