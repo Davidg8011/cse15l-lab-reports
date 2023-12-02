@@ -8,7 +8,9 @@
 
 * Hello, 
 *
-* I am having trouble debugging my code. The code can run from the terminal when I type "Javac Main.java" followed by java Main 15. However, I am not able to get the code to run from a bash script file
+* I am having trouble debugging my code. The code can run from the terminal when I type "Javac Main.java"
+* followed by java Main 15. However, I cannot get the code to run from a bash script file.
+* This makes me think the issue must be with the bash file.
 
 
 
