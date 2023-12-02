@@ -12,7 +12,7 @@
 * followed by java Main 15. However, I cannot get the code to run from a bash script file.
 * This makes me think the issue must be with the bash file.
 
-![Image](Lab_4_log_Into_ieng6.png)
+![Image](Lab_5_1st_student_post.png)
 
 
 
@@ -38,6 +38,8 @@ Lmk if that helps any!
 * That worked! Using $1 I was finally able to get the passed-in value when using a bash script.
 * I got some issues when calling run.sh without a value which I am fine with but when I call run.sh while
 * passing 0 in I get weird symptoms. My goal was to treat 0 like any other number with my code
+
+![Image](Lab_5_student_2nd_post.png)
 
 * Below is my code to check if something is prime
 ```
