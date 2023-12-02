@@ -60,16 +60,34 @@ Lmk if that helps any!
 }
 ```
 
-  
-   
+**TA Response**
+
+* Looking at your isPrime() method I see you're checking if the number is divisible by 2 and returning false if it
+* is. This is a clever check but there is an edge case when the number is 2. 2 is prime and should return true but
+* with your code the number 2 returns false which is why your number of prime numbers is off by one.
+* Looking at your terminal I see you have a check of sorts on line 2 of your run.sh file I would double, triple-
+* check that the line is free from any logic or syntax errors.
+
+
+
+**Student Post**
+
+* Yep, I had issues with line 2 in run.sh Thanks for the help.
+
 
 
 5) At the end, all the information needed about the setup including:
+   
 a) The file & directory structure needed
 
+**The file & directory structure**   
+![Image](filestr)
 
 
 b) The contents of each file before fixing the bug
+
+**The contents of each file before fixing the bug**
+
 **run.sh**
 
 ```
