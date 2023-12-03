@@ -179,6 +179,10 @@ public class math {
 c) The full command line (or lines) you ran to trigger the bug
 Copy these from the picture
 
+**list of commands**
+
+
+
 d) A description of what to edit to fix the bug
 
 **orginial math.java**
@@ -187,6 +191,8 @@ d) A description of what to edit to fix the bug
       return false;
   }
 ```
+> kept the clever trick of not checking even numbers but now checks if the number is 2 before returning false.
+
 **Fixed**
 ```
 if (number % 2 == 0 && number != 2) {
@@ -195,13 +201,15 @@ if (number % 2 == 0 && number != 2) {
 ```
 
 
-**orginial run.sh**
+**Original run.sh**
 ```
 if [ $? -eq 0 ]; then
     echo "Compilation successful."
 
     java Main $2
 ```
+
+> $2 takes the 2nd passed in argument but our program only needs one which is simply $1.
 
 **Fixed**
 ```
@@ -211,6 +219,24 @@ if [ $? -eq 0 ]; then
     java Main $1
 ```
 
-  
-![Image](Lab_4_log_Into_ieng6.png)
+
+**Original run.sh**
+```
+if [ $1 -eq 0 ]; then
+    echo "Incorrect number of arguments"
+    exit
+fi
+```
+> Instead of $1 which is the first input from the user we want $# which is the number of inputs.
+
+**Fixed**
+```
+if [ $# -eq 0 ]; then
+    echo "Incorrect number of arguments"
+    exit
+fi
+```
+
+
+
 
