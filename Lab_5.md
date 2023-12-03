@@ -251,3 +251,6 @@ fi
 
 **Part #2 Reflection:**
 
+* My favorite "hard skill" I learned was how to navigate Github bef
+
+
