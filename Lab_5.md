@@ -4,38 +4,32 @@
 **Part #1 Debugging Scenario:**
 
 
-1) The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 
 **Student Post**
 
 * Hello, 
-*
+
 * I am having trouble debugging my code. The code can run from the terminal when I type "Javac Main.java"
-* followed by java Main 15. However, I cannot get the code to run from a bash script file.
+* followed by "java Main 15". However, I cannot get the code to run from a bash script file.
 * This makes me think the issue must be with the bash file.
 
 ![Image](Lab_5_1st_student_post.png)
-
-
-
-
-
-2) A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 
 
 **TA Response**
 
 * Hello,
 
-* Looks like you're most of the way there! just a few issues left, I noticed that the total number of primes seems to be off by 1 can you send me a screenshot of your method that calculates if a number is prime or not? Going back to your bash script it seems the way you're handling the input seems to be funky. Remember that values passed into bash are accessed using $1, $2 etc. So you .sh file should have a line that reads "Java Main $1" 
+* Looks like you're most of the way there, just a few issues left! I noticed that the total number of prime numbers * seems to be off by 1, can you send me a screenshot of your method that calculates if a number is prime or not?
+* Going back to your bash script it seems the way you're handling the input seems to be funky. Remember that values
+* passed into bash scripts are accessed using $1, $2, etc. So your .sh file should have a line that reads
+* "Java Main $1" 
 
-Lmk if that helps any!
+* Lmk if that helps any!
 
 
 
-3) Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
-
-**Student**
+**Student Response**
 
 * That worked! Using $1 I was finally able to get the passed-in value when using a bash script.
 * I got some issues when calling run.sh without a value which I am fine with but when I call run.sh while
@@ -69,8 +63,8 @@ Lmk if that helps any!
 * Looking at your isPrime() method I see you're checking if the number is divisible by 2 and returning false if it
 * is. This is a clever check but there is an edge case when the number is 2. 2 is prime and should return true but
 * with your code the number 2 returns false which is why your number of prime numbers is off by one.
-* Looking at your terminal I see you have a check of sorts on line 2 of your run.sh file I would double, triple-
-* check that the line is free from any logic or syntax errors.
+* Looking at your terminal I see you have a check of sorts on line 2 of your run.sh file I would double,
+* triple-check that the line is free from any logic or syntax errors.
 
 
 
@@ -80,7 +74,6 @@ Lmk if that helps any!
 
 
 
-5) At the end, all the information needed about the setup including:
    
 a) The file & directory structure needed
 
@@ -251,6 +244,9 @@ fi
 
 **Part #2 Reflection:**
 
-* My favorite "hard skill" I learned was how to navigate Github bef
+* My favorite "hard skill" I learned was how to navigate Github. I know I am still an amateur but it is nice being
+* more comfortable with the tool. Before this class, I had only heard about GitHub in passing. I have already used
+* my knowledge of making a website to make a silly website that I linked to my friends from back home. I wouldn't *
+* have minded exploring GitHub more throughout this course. 
 
 
