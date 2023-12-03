@@ -74,14 +74,12 @@
 
 
 
-   
-a) The file & directory structure needed
+
 
 **The file & directory structure**   
 ![Image](Lab_5_file_structrue.png)
 
 
-b) The contents of each file before fixing the bug
 
 **The contents of each file before fixing the bug**
 
@@ -171,8 +169,6 @@ public class math {
 
 ```
 
-c) The full command line (or lines) you ran to trigger the bug
-Copy these from the picture
 
 **list of commands**
 
@@ -187,7 +183,7 @@ Copy these from the picture
 > bash run.sh 0
 
 
-d) A description of what to edit to fix the bug
+**Fixing the bugs**
 
 **orginial math.java**
 ```
@@ -232,6 +228,7 @@ if [ $1 -eq 0 ]; then
 fi
 ```
 > Instead of $1 which is the first input from the user we want $# which is the number of inputs.
+> This was the issue with "java Main 0".
 
 **Fixed**
 ```
@@ -246,7 +243,7 @@ fi
 
 * My favorite "hard skill" I learned was how to navigate Github. I know I am still an amateur but it is nice being
 * more comfortable with the tool. Before this class, I had only heard about GitHub in passing. I have already used
-* my knowledge of making a website to make a silly website that I linked to my friends from back home. I wouldn't *
+* my knowledge of making a website to make a silly website that I linked to my friends from back home. I wouldn't 
 * have minded exploring GitHub more throughout this course. 
 
 
