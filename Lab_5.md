@@ -83,7 +83,7 @@ Lmk if that helps any!
 a) The file & directory structure needed
 
 **The file & directory structure**   
-![Image](filestr)
+![Image](Lab_5_file_structrue.png)
 
 
 b) The contents of each file before fixing the bug
@@ -181,6 +181,15 @@ Copy these from the picture
 
 **list of commands**
 
+* to trigger the bug we ran:
+> bash run.sh 10
+
+
+* later on we ran:
+> bash run.sh 10
+> bash run.sh 12953
+> bash run.sh
+> bash run.sh 0
 
 
 d) A description of what to edit to fix the bug
