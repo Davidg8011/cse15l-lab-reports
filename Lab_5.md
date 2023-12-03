@@ -39,7 +39,7 @@ Lmk if that helps any!
 * I got some issues when calling run.sh without a value which I am fine with but when I call run.sh while
 * passing 0 in I get weird symptoms. My goal was to treat 0 like any other number with my code
 
-![Image](Lab_5_student_2nd_post.png)
+![Image](JJJJJJJJJJJJJJJJJJJ.png)
 
 * Below is my code to check if something is prime
 ```
@@ -181,6 +181,35 @@ Copy these from the picture
 
 d) A description of what to edit to fix the bug
 
+**orginial math.java**
+```
+  if (number % 2 == 0) {
+      return false;
+  }
+```
+**Fixed**
+```
+if (number % 2 == 0 && number != 2) {
+         return false;
+     }
+```
+
+
+**orginial run.sh**
+```
+if [ $? -eq 0 ]; then
+    echo "Compilation successful."
+
+    java Main $2
+```
+
+**Fixed**
+```
+if [ $? -eq 0 ]; then
+    echo "Compilation successful."
+
+    java Main $1
+```
 
   
 ![Image](Lab_4_log_Into_ieng6.png)
