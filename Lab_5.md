@@ -175,13 +175,18 @@ public class math {
 **list of commands**
 
 * to trigger the bug we ran:
+>
 > bash run.sh 10
 
 
 * later on we ran:
+* 
 > bash run.sh 10
+> 
 > bash run.sh 12953
+> 
 > bash run.sh
+> 
 > bash run.sh 0
 
 
