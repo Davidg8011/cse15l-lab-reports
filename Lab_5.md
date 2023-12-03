@@ -20,10 +20,11 @@
 
 * Hello,
 
-* Looks like you're most of the way there, just a few issues left! I noticed that the total number of prime numbers * seems to be off by 1, can you send me a screenshot of your method that calculates if a number is prime or not?
-* Going back to your bash script it seems the way you're handling the input seems to be funky. Remember
-* that values passed into bash scripts are accessed using $1, $2, etc. So your .sh file should have a line
-* that reads "Java Main $1" 
+* Looks like you're most of the way there, just a few issues left! I noticed that the total number of
+* prime numbers seems to be off by 1, can you send me a screenshot of your method that calculates if a
+* number is prime or not? Going back to your bash script it seems the way you're handling the input seems
+*  to be funky. Remember that values passed into bash scripts are accessed using $1, $2, etc. So your .sh
+*  file should have a line that reads "Java Main $1" 
 
 * Lmk if that helps any!
 
