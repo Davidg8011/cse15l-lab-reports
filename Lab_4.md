@@ -8,15 +8,14 @@
 * Starting from the terminal:
 * We log into the server by typing **ssh** \<space\>  **cs15lfa23tk@ieng6.ucsd.edu** and hit \<enter\>
   
-
+![Image](Lab_4_log_Into_ieng6.png)
 
 
 **5) Clone your fork of the repository from your GitHub account (using the SSH URL)**
 
-* To clone the repository I typed: **git** \<space\>  **clone** \<space\>
-* **git@github.com:Davidg8011/lab3.git** and hit \<enter\>
+* To clone the repository I typed: **git** \<space\>  **clone** \<space\> **git@github.com:Davidg8011/lab3.git** and hit \<enter\>
 
-![Image](addnewhere)
+
 
 
 
